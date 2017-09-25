@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		950AE1041F7840DE0010D956 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950AE1031F7840DE0010D956 /* DetailViewController.swift */; };
+		9580049B1F75390D00A62D57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580049A1F75390D00A62D57 /* AppDelegate.swift */; };
+		9580049D1F75390D00A62D57 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9580049C1F75390D00A62D57 /* MainViewController.swift */; };
+		958004A01F75390D00A62D57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9580049E1F75390D00A62D57 /* Main.storyboard */; };
+		958004A21F75390D00A62D57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958004A11F75390D00A62D57 /* Assets.xcassets */; };
+		958004A51F75390D00A62D57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958004A31F75390D00A62D57 /* LaunchScreen.storyboard */; };
+		958004AF1F75393C00A62D57 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958004AE1F75393C00A62D57 /* Connection.swift */; };
+		958004B11F753AB400A62D57 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958004B01F753AB400A62D57 /* Information.swift */; };
+		958004B31F753B0400A62D57 /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958004B21F753B0400A62D57 /* Current.swift */; };
+		958004B51F753B4E00A62D57 /* Previous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958004B41F753B4E00A62D57 /* Previous.swift */; };
+		958004B71F753BE100A62D57 /* Trustee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958004B61F753BE100A62D57 /* Trustee.swift */; };
+		958004BA1F753C1200A62D57 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958004B91F753C1200A62D57 /* Address.swift */; };
+		958004BC1F753C3B00A62D57 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958004BB1F753C3B00A62D57 /* Location.swift */; };
+		958004BE1F753C7900A62D57 /* OtherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958004BD1F753C7900A62D57 /* OtherInfo.swift */; };
+		CABA67B7EF8A412A1789DECE /* Pods_Callook_Usa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFE763593541B944813AF8C /* Pods_Callook_Usa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37AA0CDFD289D257EF915ED1 /* Pods-Callook Usa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callook Usa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Callook Usa/Pods-Callook Usa.release.xcconfig"; sourceTree = "<group>"; };
+		6FFE763593541B944813AF8C /* Pods_Callook_Usa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Callook_Usa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		950AE1031F7840DE0010D956 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		958004971F75390D00A62D57 /* Callook Usa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Callook Usa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9580049A1F75390D00A62D57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9580049C1F75390D00A62D57 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9580049F1F75390D00A62D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		958004A11F75390D00A62D57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		958004A41F75390D00A62D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		958004A61F75390D00A62D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958004AE1F75393C00A62D57 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		958004B01F753AB400A62D57 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		958004B21F753B0400A62D57 /* Current.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
+		958004B41F753B4E00A62D57 /* Previous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previous.swift; sourceTree = "<group>"; };
+		958004B61F753BE100A62D57 /* Trustee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trustee.swift; sourceTree = "<group>"; };
+		958004B91F753C1200A62D57 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		958004BB1F753C3B00A62D57 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		958004BD1F753C7900A62D57 /* OtherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherInfo.swift; sourceTree = "<group>"; };
+		B6C110FF5C659C4C50BC08CA /* Pods-Callook Usa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callook Usa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Callook Usa/Pods-Callook Usa.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		958004941F75390D00A62D57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABA67B7EF8A412A1789DECE /* Pods_Callook_Usa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BB94F25A3547F53901B2A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6C110FF5C659C4C50BC08CA /* Pods-Callook Usa.debug.xcconfig */,
+				37AA0CDFD289D257EF915ED1 /* Pods-Callook Usa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9580048E1F75390D00A62D57 = {
+			isa = PBXGroup;
+			children = (
+				958004991F75390D00A62D57 /* Callook Usa */,
+				958004981F75390D00A62D57 /* Products */,
+				04BB94F25A3547F53901B2A2 /* Pods */,
+				E26318895471E0333AD95485 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		958004981F75390D00A62D57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				958004971F75390D00A62D57 /* Callook Usa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		958004991F75390D00A62D57 /* Callook Usa */ = {
+			isa = PBXGroup;
+			children = (
+				9580049A1F75390D00A62D57 /* AppDelegate.swift */,
+				9580049C1F75390D00A62D57 /* MainViewController.swift */,
+				950AE1031F7840DE0010D956 /* DetailViewController.swift */,
+				958004AD1F75392B00A62D57 /* Data Layer */,
+				958004AC1F75392400A62D57 /* Server Layer */,
+				9580049E1F75390D00A62D57 /* Main.storyboard */,
+				958004A11F75390D00A62D57 /* Assets.xcassets */,
+				958004A31F75390D00A62D57 /* LaunchScreen.storyboard */,
+				958004A61F75390D00A62D57 /* Info.plist */,
+			);
+			path = "Callook Usa";
+			sourceTree = "<group>";
+		};
+		958004AC1F75392400A62D57 /* Server Layer */ = {
+			isa = PBXGroup;
+			children = (
+				958004AE1F75393C00A62D57 /* Connection.swift */,
+			);
+			path = "Server Layer";
+			sourceTree = "<group>";
+		};
+		958004AD1F75392B00A62D57 /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				958004B01F753AB400A62D57 /* Information.swift */,
+				958004B21F753B0400A62D57 /* Current.swift */,
+				958004B61F753BE100A62D57 /* Trustee.swift */,
+				958004B41F753B4E00A62D57 /* Previous.swift */,
+				958004B91F753C1200A62D57 /* Address.swift */,
+				958004BB1F753C3B00A62D57 /* Location.swift */,
+				958004BD1F753C7900A62D57 /* OtherInfo.swift */,
+			);
+			path = "Data Layer";
+			sourceTree = "<group>";
+		};
+		E26318895471E0333AD95485 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FFE763593541B944813AF8C /* Pods_Callook_Usa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		958004961F75390D00A62D57 /* Callook Usa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958004A91F75390D00A62D57 /* Build configuration list for PBXNativeTarget "Callook Usa" */;
+			buildPhases = (
+				36279508C8AB22699028C9FF /* [CP] Check Pods Manifest.lock */,
+				958004931F75390D00A62D57 /* Sources */,
+				958004941F75390D00A62D57 /* Frameworks */,
+				958004951F75390D00A62D57 /* Resources */,
+				F9A25AD0AFFE66F71EFBF73B /* [CP] Embed Pods Frameworks */,
+				3ED827C45062466571E60E1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Callook Usa";
+			productName = "Callook Usa";
+			productReference = 958004971F75390D00A62D57 /* Callook Usa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9580048F1F75390D00A62D57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Wipline;
+				TargetAttributes = {
+					958004961F75390D00A62D57 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 958004921F75390D00A62D57 /* Build configuration list for PBXProject "Callook Usa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9580048E1F75390D00A62D57;
+			productRefGroup = 958004981F75390D00A62D57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				958004961F75390D00A62D57 /* Callook Usa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		958004951F75390D00A62D57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958004A51F75390D00A62D57 /* LaunchScreen.storyboard in Resources */,
+				958004A21F75390D00A62D57 /* Assets.xcassets in Resources */,
+				958004A01F75390D00A62D57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36279508C8AB22699028C9FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED827C45062466571E60E1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Callook Usa/Pods-Callook Usa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9A25AD0AFFE66F71EFBF73B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Callook Usa/Pods-Callook Usa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		958004931F75390D00A62D57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958004BE1F753C7900A62D57 /* OtherInfo.swift in Sources */,
+				958004B51F753B4E00A62D57 /* Previous.swift in Sources */,
+				9580049D1F75390D00A62D57 /* MainViewController.swift in Sources */,
+				950AE1041F7840DE0010D956 /* DetailViewController.swift in Sources */,
+				958004B31F753B0400A62D57 /* Current.swift in Sources */,
+				958004B11F753AB400A62D57 /* Information.swift in Sources */,
+				958004BC1F753C3B00A62D57 /* Location.swift in Sources */,
+				958004B71F753BE100A62D57 /* Trustee.swift in Sources */,
+				958004AF1F75393C00A62D57 /* Connection.swift in Sources */,
+				958004BA1F753C1200A62D57 /* Address.swift in Sources */,
+				9580049B1F75390D00A62D57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9580049E1F75390D00A62D57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9580049F1F75390D00A62D57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		958004A31F75390D00A62D57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958004A41F75390D00A62D57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		958004A71F75390D00A62D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		958004A81F75390D00A62D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		958004AA1F75390D00A62D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C110FF5C659C4C50BC08CA /* Pods-Callook Usa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 756Y2V6DNK;
+				INFOPLIST_FILE = "Callook Usa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WPL.Callook-Usa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		958004AB1F75390D00A62D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37AA0CDFD289D257EF915ED1 /* Pods-Callook Usa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 756Y2V6DNK;
+				INFOPLIST_FILE = "Callook Usa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WPL.Callook-Usa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		958004921F75390D00A62D57 /* Build configuration list for PBXProject "Callook Usa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958004A71F75390D00A62D57 /* Debug */,
+				958004A81F75390D00A62D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958004A91F75390D00A62D57 /* Build configuration list for PBXNativeTarget "Callook Usa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958004AA1F75390D00A62D57 /* Debug */,
+				958004AB1F75390D00A62D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9580048F1F75390D00A62D57 /* Project object */;
+}
